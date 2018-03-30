@@ -149,6 +149,11 @@ body {
     line-height: 9px;
 }
 
+#content1 img {
+    box-shadow: #000000 0 0 10px;
+    border-radius: 15px;
+}
+
 #content2 {
     margin: auto;
     width: 900px;
