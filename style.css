@@ -335,6 +335,7 @@ table {
 
 .section2 > hr {
     width: 600px;
+    box-shadow: #000000 0 0 10px;
 }
 
 .section1 img {
@@ -363,6 +364,7 @@ table {
 
 .section4 > hr {
     width: 670px;
+    box-shadow: #000000 0 0 10px;
 }
 
 .section4 > h1 {
