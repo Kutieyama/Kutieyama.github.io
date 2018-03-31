@@ -592,4 +592,8 @@ h1 {
     box-shadow: #000000 0 0 5px inset;
 }
 
+href {
+    text-decoration: none;
+}
+
 /* end nav */
