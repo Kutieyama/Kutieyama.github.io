@@ -2,9 +2,23 @@
 
 #logoC {
     max-width: 100%;
-    display: block;
+    display: inline-block;
     margin: auto;
     background-image: url("original.gif");
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: #000000 0 0 10px inset;
+}
+
+#gitHub {
+    max-width: 100%;
+    display: inline-block;
+    margin: auto;
+    background-image: url("github.png");
     background-position: center;
     background-size: cover;
     width: 200px;
