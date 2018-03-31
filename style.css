@@ -135,8 +135,7 @@
 
 
 #logo {
-    left: 400px;
-    display: inline-block;
+    display: block;
     margin: auto;
     background-image: url("original.gif");
     background-position: center;
@@ -515,3 +514,82 @@ table {
 }
 
 /* end sections */
+
+/* footer */
+
+#title > h1 {
+    font-family: "cursive", URW Chancery L, cursive;
+    color: aliceblue;
+    text-shadow: #000000 0 0 10px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 9px;
+}
+
+footer {
+    background-image: url("footer1.png");
+    background-position: center;
+    background-size: cover;
+    width: 900px;
+    border-radius: 15px;
+    max-width: 100%;
+    margin: auto;
+    box-shadow: #000000 0 0 5px inset;
+}
+
+/* footer end */
+
+/* footernav */
+
+p {
+    font-family: "cursive", URW Chancery L, cursive;
+}
+
+h1 {
+    font-family: "cursive", URW Chancery L, cursive;
+    color: aliceblue;
+    text-shadow: #000000 0 0 10px;
+}
+
+.botnavigator {
+    padding: 0px;
+    background-image: url("background-1.png");
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-attachment: fixed;
+    box-shadow: 0 3px 2px -2px #000000;
+}
+
+.botnavigator > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0px;
+    text-align: center;
+}
+
+.botnavigator > ul > li {
+    display: inline-block;
+    padding: 0;
+}
+
+.botnavigator a {
+    display: inline-block;
+    padding: 5px 20px 5px;
+    color: #232323;
+    font-family: 'Chicle', cursive;
+    font-size: 20px;
+    text-decoration: none;
+    text-shadow: #232323 0 0 5px;
+}
+
+.botnavigator a:hover {
+    background-color: #232323;
+    opacity: 0.8;
+    color: #ffffff;
+    text-shadow: #ffffff 0 0 9px;
+    box-shadow: #000000 0 0 5px inset;
+}
+
+/* end nav */
