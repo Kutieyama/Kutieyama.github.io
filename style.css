@@ -1,17 +1,67 @@
-/* logo items */
+/* medias */
 
-#logoC {
+#discord {
     max-width: 100%;
     display: inline-block;
     margin: auto;
-    background-image: url("original.gif");
+    background-image: url("discord.jpg");
     background-position: center;
     background-size: cover;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     position: relative;
     box-shadow: #000000 0 0 10px inset;
+}
+
+#discord:hover #overlayDiscord {
+    transition: .3s;
+    opacity: .8;
+}
+
+#overlayDiscord {
+    background-image: url("discord.png");
+    background-position: center;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: #000000 0 0 10px inset;
+
+}
+
+#twitter {
+    max-width: 100%;
+    display: inline-block;
+    margin: auto;
+    background-image: url("twitter.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: #000000 0 0 10px inset;
+}
+
+#twitter:hover #overlayTwitter {
+    transition: .3s;
+    opacity: .8;
+}
+
+#overlayTwitter {
+    background-image: url("twitter.png");
+    background-position: center;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: #000000 0 0 10px inset;
+
 }
 
 #gitHub {
@@ -21,15 +71,72 @@
     background-image: url("github.png");
     background-position: center;
     background-size: cover;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     position: relative;
     box-shadow: #000000 0 0 10px inset;
 }
 
+#gitHub:hover #overlayGithub {
+    transition: .3s;
+    opacity: .8;
+}
+
+#overlayGithub {
+    background-image: url("42-GitHub.png");
+    background-position: center;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: #000000 0 0 10px inset;
+
+}
+
+
+#codepen {
+    max-width: 100%;
+    display: inline-block;
+    margin: auto;
+    background-image: url("original.gif");
+    background-position: center;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: #000000 0 0 10px inset;
+}
+
+#codepen:hover #overlayCodepen {
+    transition: .3s;
+    opacity: .8;
+}
+
+#overlayCodepen {
+    background-image: url("codepen.png");
+    background-position: center;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: #000000 0 0 10px inset;
+
+}
+
+/* medias */
+
+/* logo items */
+
+
 #logo {
-    display: block;
+    left: 400px;
+    display: inline-block;
     margin: auto;
     background-image: url("original.gif");
     background-position: center;
@@ -278,6 +385,7 @@ body {
     border-radius: 10px;
     width: 190px;
     padding: 1px;
+    
 }
 
 .button:hover {
@@ -292,6 +400,7 @@ body {
     text-decoration: none;
     color: aliceblue;
     font-size: 50px;
+    text-shadow: #000000 0 0 20px;
 }
 
 /* button end */
