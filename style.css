@@ -180,7 +180,7 @@
 header {
     background-image: url("header.png");
     background-position: center;
-    width: 900px;
+    width: 990px;
     border-radius: 15px;
     max-width: 100%;
     margin: auto;
@@ -204,7 +204,6 @@ h1 {
 .navigator {
     padding: 0px;
     background-image: url("background-1.png");
-    background-color: black;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right center;
@@ -247,12 +246,17 @@ h1 {
 /* body */
 
 body {
-    background-color: #232323;
+    background-image: url("background-1.png");
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 #content {
     margin: auto;
-    width: 900px;
+    width: 990px;
     height: 400px;
     background-color: #515151;
     box-shadow: #000000 0 0 10px inset;
@@ -276,7 +280,7 @@ body {
 
 #content2 {
     margin: auto;
-    width: 900px;
+    width: 990px;
     height: 1000px;
     background-image: url("titlecol1.jpg");
     background-color: #515151;
@@ -288,7 +292,7 @@ body {
 
 #content3 {
     margin: auto;
-    width: 900px;
+    width: 990px;
     height: 300px;
     background-color: #515151;
     box-shadow: #000000 0 0 10px inset;
@@ -297,7 +301,7 @@ body {
 
 #content4 {
     margin: auto;
-    width: 900px;
+    width: 990px;
     height: 900px;
     background-color: #515151;
     box-shadow: #000000 0 0 10px inset;
@@ -321,7 +325,7 @@ body {
 
 #content5 {
     margin: auto;
-    width: 900px;
+    width: 990px;
     height: 320px;
     background-color: #515151;
     box-shadow: #000000 0 0 10px inset;
@@ -344,7 +348,7 @@ body {
 
 #content6 {
     margin: auto;
-    width: 900px;
+    width: 990px;
     height: 280px;
     background-color: #515151;
     box-shadow: #000000 0 0 10px inset;
@@ -365,18 +369,9 @@ body {
     line-height: 9px;
 }
 
-body {
-    background-image: url("background-1.png");
-    background-color: black;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-}
-
 #content7 {
     margin: auto;
-    width: 900px;
+    width: 990px;
     height: 520px;
     background-color: #515151;
     box-shadow: #000000 0 0 10px inset;
@@ -444,9 +439,9 @@ table {
 
 .section2 {
     float: left;
-    width: 600px;
+    width: 680px;
     position: relative;
-    left: 20px;
+    left: 30px;
 }
 
 .section2 > h1 {
@@ -556,7 +551,7 @@ footer {
     background-image: url("footer1.png");
     background-position: center;
     background-size: cover;
-    width: 900px;
+    width: 990px;
     border-radius: 15px;
     max-width: 100%;
     margin: auto;
