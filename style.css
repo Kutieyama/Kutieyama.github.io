@@ -374,6 +374,24 @@ body {
     background-attachment: fixed;
 }
 
+#content7 {
+    margin: auto;
+    width: 900px;
+    height: 520px;
+    background-color: #515151;
+    box-shadow: #000000 0 0 10px inset;
+    border-radius: 5px;
+}
+
+#content7 > h1 {
+    font-family: "cursive", URW Chancery L, cursive;
+    color: aliceblue;
+    text-shadow: #000000 0 0 10px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 9px;
+}
+
 /* body */
 
 /* Buttons */
@@ -512,6 +530,13 @@ table {
     font-family: "cursive", URW Chancery L, cursive;
     color: aliceblue;
     text-shadow: #000000 0 0 10px;
+}
+
+.section5 {
+    float: left;
+    width: 250px;
+    position: relative;
+    left: 25px;
 }
 
 /* end sections */
