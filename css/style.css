@@ -294,7 +294,7 @@ body {
 #content4 {
     margin: auto;
     width: 990px;
-    height: 900px;
+    height: 230px;
     background-color: #515151;
     box-shadow: #000000 0 0 10px inset;
     border-radius: 5px;
@@ -526,6 +526,32 @@ table {
     left: 25px;
 }
 
+.section6 {
+    float: left;
+    width: 250px;
+    position: relative;
+    left: 25px;
+    top: 50px;
+}
+
+.section7 {
+    float: left;
+    width: 240px;
+    position: relative;
+    left: 25px;
+}
+
+.section7 img {
+    box-shadow: #000000 0 0 10px;
+    border-radius: 15px;
+}
+
+a {
+    font-family: "cursive", URW Chancery L, cursive;
+    color: aliceblue;
+    text-shadow: #000000 0 0 10px;
+    font-weight: bold;
+}
 /* end sections */
 
 /* footer */
