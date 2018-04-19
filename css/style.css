@@ -546,13 +546,13 @@ table {
     border-radius: 15px;
 }
 
-a {
-    font-family: "cursive", URW Chancery L, cursive;
-    color: aliceblue;
-    text-shadow: #000000 0 0 10px;
-    font-weight: bold;
-    text-decoration: none;
-}
+    a {
+        font-family: "cursive", URW Chancery L, cursive;
+        color: aliceblue;
+        text-shadow: #000000 0 0 10px;
+        font-weight: bold;
+        text-decoration: none;
+    }
 /* end sections */
 
 /* footer */
